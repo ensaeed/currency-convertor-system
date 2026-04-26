@@ -20,5 +20,8 @@ jobs:
           distribution: temurin
           java-version: 17
 
+      - name: Install Playwright Browsers
+        run: mvn exec:java -Dexec.mainClass=com.microsoft.playwright.CLI -Dexec.args="install chromium"
+
       - name: Run tests
         run: mvn clean test
