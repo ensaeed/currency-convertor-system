@@ -1,0 +1,14 @@
+[
+  {
+    "fromCurrency": "USD",
+    "toCurrency": "EUR",
+    "amount": 100,
+    "expectedRate": 0.85487
+  },
+  {
+    "fromCurrency": "GBP",
+    "toCurrency": "INR",
+    "amount": 50,
+    "expectedRate": 127.03
+  }
+]
