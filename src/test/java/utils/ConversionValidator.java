@@ -3,7 +3,8 @@ package utils;
 public class ConversionValidator {
 
 
-        public static double calculateExpected(double amount, double rate) {
+        public static double calculateExpected(double amount, double rate)
+        {
             return amount * rate;
         }
 

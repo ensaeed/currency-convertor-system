@@ -31,7 +31,7 @@ public class CurrencyApiClient {
         HttpResponse<String> response =
                 client.send(request, HttpResponse.BodyHandlers.ofString());
 
-        // Log response (VERY IMPORTANT for debugging)
+        // Log response
         System.out.println("Status code: " + response.statusCode());
         System.out.println("API Response: " + response.body());
 
